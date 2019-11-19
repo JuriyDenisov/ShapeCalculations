@@ -15,3 +15,9 @@ The following methods are available to customers:
 * `void FindArea(Shape shape)`
 * `void DefineType(Shape shape)`
 * `void CalculateAll(Shape shape)`
+
+`Shape` is abstract class. The real objects can be `Circle` or `Triangle`.
+To calculate the shape, the dimensions must be specified — the radius of the circle and the sides of the triangle.
+If an incorrect model is passed to any of the methods, an exception will be thrown.
+
+After calculation, the model of the figure is enriched with the calculated value.
