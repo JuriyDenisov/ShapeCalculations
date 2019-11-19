@@ -22,6 +22,8 @@ If an incorrect model is passed to any of the methods, an exception will be thro
 
 After calculation, the model of the figure is enriched with the calculated value.
 
+**Additional features:**
+
 It is possible to use the `ShapeCreator` class to create a particular class of shape by transferring only one or more its sizes.
 Method signature:
 ```
