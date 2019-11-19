@@ -9,4 +9,9 @@ For them it is possible to calculate the area and subtype of the figure.
 Using
 ---
 
-The main class is 'ShapeCalculationService'.
+The main class is `ShapeCalculationService`. It can be used with the default constructor.
+The following methods are available to customers:
+* `void Validate(Shape shape)`
+* `void FindArea(Shape shape)`
+* `void DefineType(Shape shape)`
+* `void CalculateAll(Shape shape)`
