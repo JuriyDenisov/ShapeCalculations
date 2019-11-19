@@ -24,5 +24,5 @@ After calculation, the model of the figure is enriched with the calculated value
 
 It is possible to use the `ShapeCreator` class to create a particular class of shape by transferring only one or more its sizes.
 Method signature:
-`Shape GetShape(params double[] shapeSizes)`
-Further the figure can be transferred for calculation to the class `ShapeCalculationService`.
+* `Shape GetShape(params double[] shapeSizes)`
+The resulting figure can be transferred for calculation to the class `ShapeCalculationService`.
